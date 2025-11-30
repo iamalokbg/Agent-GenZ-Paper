@@ -151,3 +151,32 @@ Markdown newspaper
 JSON API response
 
 PDF (optional extension)
+
+
+
+  FLOW DIAGRAM
+  flowchart TD
+
+    A[User Input<br>(topics, interests)] --> B[Agent 1:<br>News Orchestrator]
+
+    subgraph Fetchers
+        B --> C1[Agent 2A:<br>Google News]
+        B --> C2[Agent 2B:<br>Reddit Fetcher]
+        B --> C3[Agent 2C:<br>NewsAPI]
+        B --> C4[Agent 2D:<br>YouTube News<br>+ Thumbnails]
+        B --> C5[Agent 2E:<br>RSS Fetcher]
+    end
+
+    C1 --> D[Normalized News Dataset]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    C5 --> D
+
+    D --> E[Agent 3:<br>Media Selector]
+    E --> F[Agent 4:<br>Gen-Z Rewriter]
+
+    F --> G[Agent 5:<br>Newspaper Builder]
+
+    G --> H[Outputs:<br>Markdown / JSON / PDF]
+
