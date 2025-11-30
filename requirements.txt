@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+httpx
+requests
+pydantic
+pytest
+black
+flake8
+python-dotenv
