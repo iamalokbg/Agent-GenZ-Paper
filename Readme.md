@@ -1,5 +1,7 @@
                              Project Overview - Agent GenZPaper
 
+ ![genz_brain.png](./assets/genz_brain.png.png)
+
  📣 Agent GenZPaper — Multi-Agent Gen-Z Personalized Newspaper
 
 A full-stack AI agent system that converts raw internet news into a Gen-Z friendly, manga-styled digital newspaper.
@@ -121,6 +123,7 @@ GenZPaper supports two layouts:
       Agent 5 assembles the final newspaper →
       Output exported (Markdown + JSON)
 
+   ![flow_diagram.png](./assets/flow_diagram.png.png)
 
 
 🛠️ 7. Tools & Technologies
@@ -159,3 +162,4 @@ making credible news accessible, visual, and fun for the next generation.
 
 It uses agents not as a buzzword, but as a true architectural advantage.
  
+
